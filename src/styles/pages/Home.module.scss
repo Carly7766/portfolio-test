@@ -9,7 +9,7 @@
 
 .header_logo {
   text-decoration: none;
-  color: #000;
+  color: #fff;
 
   font-family: futura-pt, sans-serif;
   font-weight: 600;
@@ -28,7 +28,7 @@
 
 .header_link {
   text-decoration: none;
-  color: #000;
+  color: #fff;
 
   font-family: futura-pt, sans-serif;
   font-weight: 600;
@@ -38,4 +38,17 @@
 .test {
   font-size: 64pt;
   text-align: center;
+}
+
+.wave {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  display: inline-block;
+  font-size: 0;
+}
+
+#background_wave {
+  z-index: -1;
 }

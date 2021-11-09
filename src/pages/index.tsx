@@ -1,3 +1,5 @@
+import Wave from "react-wavify";
+
 import type { NextPage } from "next";
 
 import styles from "@/styles/pages/Home.module.scss";
@@ -31,6 +33,32 @@ const Home: NextPage = () => {
       </header>
 
       <h1 className={styles.test}>↑それっぽいヘッダー</h1>
+      <div>
+        <Wave
+          fill="#E0CF59"
+          paused={false}
+          options={{
+            height: 20,
+            amplitude: 20,
+            speed: 0.2,
+            points: 3,
+          }}
+          className={styles.wave}
+          id={styles.background_wave}
+        />
+
+        <Wave
+          fill="#F5E663"
+          paused={false}
+          options={{
+            height: 20,
+            amplitude: 40,
+            speed: 0.15,
+            points: 3,
+          }}
+          className={styles.wave}
+        />
+      </div>
     </>
   );
 };
