@@ -32,7 +32,11 @@ const Home: NextPage = () => {
         </nav>
       </header>
 
-      <h1 className={styles.test}>↑それっぽいヘッダー</h1>
+      <main className={styles.main}>
+        <h1 className={styles.heading}>Carly</h1>
+        <p className={styles.sub_heading}>プログラミングやデザインなど</p>
+      </main>
+
       <div>
         <Wave
           fill="#E0CF59"

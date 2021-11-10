@@ -9,7 +9,6 @@
 
 .header_logo {
   text-decoration: none;
-  color: #fff;
 
   font-family: futura-pt, sans-serif;
   font-weight: 600;
@@ -28,16 +27,27 @@
 
 .header_link {
   text-decoration: none;
-  color: #fff;
 
-  font-family: futura-pt, sans-serif;
   font-weight: 600;
   font-size: 16pt;
 }
 
-.test {
-  font-size: 64pt;
+.main {
   text-align: center;
+}
+
+.heading {
+  padding-top: 104px;
+
+  color: #ff5964;
+  text-shadow: 4px 4px #006e90;
+
+  font-weight: 600;
+  font-size: 128pt;
+}
+
+.sub_heading {
+  font-size: 16pt;
 }
 
 .wave {
