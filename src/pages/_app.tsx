@@ -1,3 +1,4 @@
+import "ress";
 import "@/styles/application.scss";
 import type { AppProps } from "next/app";
 
