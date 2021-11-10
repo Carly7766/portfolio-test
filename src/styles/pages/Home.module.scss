@@ -1,0 +1,64 @@
+.header {
+  width: 100%;
+  padding: 0.5% 5%;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header_logo {
+  text-decoration: none;
+
+  font-family: futura-pt, sans-serif;
+  font-weight: 600;
+  font-size: 32pt;
+}
+
+.header_list {
+  display: flex;
+  justify-content: center;
+}
+
+.header_child {
+  list-style: none;
+  margin: 0 32px;
+}
+
+.header_link {
+  text-decoration: none;
+
+  font-weight: 600;
+  font-size: 16pt;
+}
+
+.main {
+  text-align: center;
+}
+
+.heading {
+  padding-top: 104px;
+
+  color: #ff5964;
+  text-shadow: 4px 4px #006e90;
+
+  font-weight: 600;
+  font-size: 128pt;
+}
+
+.sub_heading {
+  font-size: 16pt;
+}
+
+.wave {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  display: inline-block;
+  font-size: 0;
+}
+
+#background_wave {
+  z-index: -1;
+}
